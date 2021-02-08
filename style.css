@@ -1,0 +1,54 @@
+body {
+    background-color: #f5efe3;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 40px;
+    color: #a6aa9c;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 18px;
+    color: #a6aa9c;
+}
+
+p {
+    font-family: serif;
+    font-size: 18px;
+    color: #a6aa9c;
+}
+
+
+ul {
+    font-family: serif;
+    color: #a6aa9c;
+
+}
+
+.contact a:link {
+    color: seagreen;
+}
+
+.contact-info {
+    margin-left: initial;
+}
+
+.paragraph {
+    font-family: serif;
+    font-size: 18px;
+    color: #a6aa9c;
+    margin-left: 42%;
+}
+
+.inputs {
+    font-family: serif;
+    font-size: 18px;
+    color: #a6aa9c;
+}
+
+.pic {
+    margin-left: 250px;
+}
