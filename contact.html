@@ -18,28 +18,37 @@
         </ul>
     </div>
     <p>Fill in with your contact-info</p>
-    <div class="inputs">
+    <form action="results.html" method="GET" class="inputs">
+        <div>
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name" required><br>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+        </div>
+        <div>
+            <label for="nationality">Nationality</label>
+            <input list="countries" name="nationality" id="nationality">
+        </div>
+        <div>
+            <datalist id="countries">
+                <option value="American"></option>
+                <option value="Argentinian"></option>
+                <option value="Swedish"></option>
+                <option value="French"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="telephone" id="telephone"><br>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
 
-        <label for="name">Full name</label>
-        <input type="text" name="name" id="name"><br>
-
-        <label for="mail">Email</label>
-        <input type="text" name="mail" id="mail"><br>
-
-        <label for="nationality">Nationality</label>
-        <input list="countries" name="nationality" id="nationality">
-
-        <datalist id="countries">
-            <option value="American"></option>
-            <option value="Argentinian"></option>
-            <option value="Swedish"></option>
-            <option value="French"></option>
-        </datalist><br>
-
-        <label for="telephone">Telephone</label>
-        <input type="tel" name="telephone" id="telephone">
-
-    </div>
+    </form>
 </body>
 
 </html>
